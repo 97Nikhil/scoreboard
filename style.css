@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.split{
+    height: 80%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.leftSide{
+    left: 0;
+}
+
+.rightSide{
+    right: 0;
+}
+
+.center{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: rgb(115, 218, 120);
+    border-radius: 10px;
+}
+
+span{
+    font-size: 50px;
+}
+
+.btn-center{
+    margin-left: 45%;
+    padding: 20px;
+    background-color: rgb(187, 186, 186);
+    border-radius: 10px;
+    margin-top: 500px;
+    font-size: 40px;
+}

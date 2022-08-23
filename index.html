@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Football Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Scoreboard</h1>
+    <div class="split leftSide">
+        <div class="center">
+            <img src="img/fc.png" alt="">
+            <h3>Team A</h3>
+            <span id="scoreA">0</span><br>
+            <button class="btn" onclick="teamA1()">+1</button>
+            <button class="btn" onclick="teamA3()">+3</button>
+            <button class="btn" onclick="teamA5()">+5</button>
+        </div>
+    </div>
+
+    <div class="split rightSide">
+        <div class="center">
+            <img src="img/rm.png" alt="">
+            <h3>Team B</h3>
+            <span id="scoreB">0</span><br>
+            <button class="btn" onclick="teamB1()">+1</button>
+            <button class="btn" onclick="teamB3()">+3</button>
+            <button class="btn" onclick="teamB5()">+5</button>
+        </div>
+    </div>
+
+    <button class="btn-center" onclick="reset()">Reset</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
